@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title> ATLOL - Home </title>
+	<style type="text/css" media="all">@import "css/master.css";</style>
+</head>
+
+<body>
+	<!--Navigation Bar-->
+<div class="navbar">
+  <a href="./index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Lanes
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="./Toplane.html">Top</a>
+      <a href="./Jungle.html">Jungle</a>
+      <a href="./Middle.html">Middle</a>
+      <a href="./Bottom.html">Bottom</a>
+      <a href="./Support.html">Support</a>
+    </div>
+  </div> 
+  <a href="./Facts.html">Facts</a>
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+	<!--Banner-->
+	<div id="banner">
+		<img src="images\new banner.png" style="width: 100%;height: 100%;">
+	</div>
+	<!--lcsnews-->
+	<div id="lcsnews">
+	<h1>
+		Recent LCS News
+	</h1>
+	<h2>
+		MSI 2018 Invitations
+	</h2>
+</br>
+	<div>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/RivYhVZp34Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+	<p>
+		LOL Esports will be holding the next Mid-Season Invitations on May 3rd, 2018. Watch as Teams from all around the global will battle for supremacy on the rift. Don't forget to join us.
+	</p>
+	</div>
+	<!--About Us-->
+	<div id="aboutus">
+		<h1>
+			About Us
+		</h1>
+		<div id="trevor">
+		<h2>
+			Trevor H.
+		</h2>
+		<p>
+			Lorem ipsum dolor sit amet, at solum mundi pro, justo fugit exerci usu ne, postea voluptua volutpat ex pro. Oportere ocurreret vel in. Mea modo dolorum vivendo ei, cu laudem fuisset eos. Habemus apeirian sententiae cu sea. Te aperiri signiferumque est. Civibus consetetur quo at, mea laudem petentium molestiae no.
+			<br><br>
+			Cu nibh numquam concludaturque vis, doctus tincidunt ad eam. Eu cibo nonumes ponderum nec, ea ius fugit intellegat democritum, debet euismod minimum qui ad. Odio fastidii id sea, persius voluptua sea te. Ex alia intellegat forensibus eos. Sit id debet cetero voluptatum, eu nibh legere apeirian his.
+		</p>
+		</div>
+		<div id="anthony">
+		<h2>
+			Anthony W.
+		</h2>
+		<p>
+			Lorem ipsum dolor sit amet, at solum mundi pro, justo fugit exerci usu ne, postea voluptua volutpat ex pro. Oportere ocurreret vel in. Mea modo dolorum vivendo ei, cu laudem fuisset eos. Habemus apeirian sententiae cu sea. Te aperiri signiferumque est. Civibus consetetur quo at, mea laudem petentium molestiae no.
+			<br><br>
+			Cu nibh numquam concludaturque vis, doctus tincidunt ad eam. Eu cibo nonumes ponderum nec, ea ius fugit intellegat democritum, debet euismod minimum qui ad. Odio fastidii id sea, persius voluptua sea te. Ex alia intellegat forensibus eos. Sit id debet cetero voluptatum, eu nibh legere apeirian his.
+		</p>
+		</div>
+	</div>
+</body>
+
+</html>

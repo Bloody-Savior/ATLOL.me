@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title> ATLOL - Bottom </title>
+	<style type="text/css" media="all">@import "css/master.css";</style>
+</head>
+
+<body>
+	<!--Navigation Bar-->
+<div class="navbar">
+  <a href="./index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Lanes
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="./Toplane.html">Top</a>
+      <a href="./Jungle.html">Jungle</a>
+      <a href="./Middle.html">Middle</a>
+      <a href="./Bottom.html">Bottom</a>
+      <a href="./Support.html">Support</a>
+    </div>
+  </div> 
+  <a href="./Facts.html">Facts</a>
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+	<!--Banner-->
+	<div id="banner">
+		<img src="images\new banner.png" style="width: 100%;height: 100%;">
+	</div>
+      <div id="highwinrate">
+      <h1>
+          Highest Winrate Champions
+      </h1>
+      <img src="./images/Kaisa.jpg">
+      <img src="./images/Quinn.png">
+      <img src="./images/Twitch.png">
+      <img src="./images/Jinx.png">
+      <img src="./images/MissFortune.png">
+    </div>
+    <div id="highwinratetext">
+    
+    </div>
+    <div id="lowwinrate">
+      <h1>
+        Lowest Winrate Champions
+      </h1>
+      <img src="./images/Kalista.png">
+      <img src="./images/Varus.png">
+      <img src="./images/Lucian.png">
+      <img src="./images/Vayne.png">
+      <img src="./images/Kog.png">
+    </div>
+    <div id="hottestchamp">
+      <h1>
+        Hottest Bottom Champions this Patch
+      </h1>
+      <img src="./images/Caitlyn.png">
+      <p>
+        Caitlyn
+      </p>
+    </div>
+    <div id="popchampslcs">
+      <h1>
+        Popular Bottom Champs in the LCS
+      </h1>
+      <img src="./images/Varus.png">
+      <img src="./images/Xayah.jpg">
+      <img src="./images/Caitlyn.png">
+      <p>
+        
+      </p>
+    </div>  
+</body>
+</html>

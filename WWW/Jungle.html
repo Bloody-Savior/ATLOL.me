@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title> ATLOL - Jungle </title>
+	<style type="text/css" media="all">@import "css/master.css";</style>
+</head>
+
+<body>
+	<!--Navigation Bar-->
+<div class="navbar">
+  <a href="./index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Lanes
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="./Toplane.html">Top</a>
+      <a href="./Jungle.html">Jungle</a>
+      <a href="./Middle.html">Middle</a>
+      <a href="./Bottom.html">Bottom</a>
+      <a href="./Support.html">Support</a>
+    </div>
+  </div> 
+  <a href="./Facts.html">Facts</a>
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+	<!--Banner-->
+	<div id="banner">
+		<img src="images\new banner.png" style="width: 100%;height: 100%;">
+	</div>
+      <div id="highwinrate">
+      <h1>
+          Highest Winrate Champions
+      </h1>
+      <img src="./images/Warwick.jpg">
+      <img src="./images/Tryndamere.jpg">
+      <img src="./images/Shaco.png">
+      <img src="./images/singed.png">
+      <img src="./images/Udyr.png">
+    </div>
+    <div id="highwinratetext">
+    
+    </div>
+    <div id="lowwinrate">
+      <h1>
+        Lowest Winrate Champions
+      </h1>
+      <img src="./images/Gragas.png">
+      <img src="./images/Diana.png">
+      <img src="./images/Sejuani.png">
+      <img src="./images/Ivern.png">
+      <img src="./images/Poppy.png">
+    </div>
+    <div id="hottestchamp">
+      <h1>
+        Hottest Jungle Champions this Patch
+      </h1>
+      <img src="./images/Lee.png">
+      <p>
+        Lee Sin
+      </p>
+    </div>
+    <div id="popchampslcs">
+      <h1>
+        Popular Jungle Champs in the LCS
+      </h1>
+      <img src="./images/Sejuani.png">
+      <img src="./images/Camille.png">
+      <img src="./images/Jarvan.png">
+      <p>
+      </p>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title> ATLOL - Facts </title>
+	<style type="text/css" media="all">@import "css/master.css";</style>
+</head>
+
+<body>
+	<!--Navigation Bar-->
+<div class="navbar">
+  <a href="./index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Lanes
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="./Toplane.html">Top</a>
+      <a href="./Jungle.html">Jungle</a>
+      <a href="./Middle.html">Middle</a>
+      <a href="./Bottom.html">Bottom</a>
+      <a href="./Support.html">Support</a>
+    </div>
+  </div> 
+  <a href="./Facts.html">Facts</a>
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+	<!--Banner-->
+	<div id="banner">
+		<img src="images\new banner.png" style="width: 100%;height: 100%;">
+	</div>
+  
+<!--Facts Page-->
+<div id="LaningFacts">
+  <h1>
+    Laning Phase
+  </h1>
+  <p>
+    Laning Phase consists of the first 15 to 20 minutes of a game. During this, players fight for supremancy of their lane against the enemy team's laner. Laners also have to be aware where all enemies and teamates are to form a cooperative effort to either score a kill, tower, or objective. What makes this even more difficult is that if a laner dies than that lane has a higher chance of becoming "Fed." The Term "Fed" refers to a player that has gotten enough kills to be considered overpowered as the game moves on.
+  </p>
+  <br><br>
+  <h1>
+    Freezing a Lane
+  </h1>
+  <p>
+    One of the most important skill to have as a laner is to know how to freeze a lane. Freezing a lane can be grouped into 2 servereities: A Soft Freeze and a Hard Freeze.
+  </p>
+    <br>
+  <h2>
+    Hard Freeze
+  </h2>
+  <p>
+    A Hard Freeze is when you allow three enemy caster minions to meet your new wave right outside of your turrets range. This allows your minions to arrive faster than the enemy minions do, as a result the wave slowly pushes into the enemy tower. As the  wave slowly pushes into the enemy tower your wave will get larger and larger making it cause more damage to the turret. However, the more minions there are the the enemy laner can kill and gain gold and exp off of. 
+  </p>
+    <br>
+  <h2>
+    Soft Freeze
+  </h2>
+  <p>
+    A Soft Freeze consists of a player taking the last of the enemy wave and pulling them to the side as they wait for their own lane comes in. The down side is that if there are too many minions it can cause a lot of damage to the player. If the minion count is low, this allows for you to have control over the lane so that the enemy laner cannot forcefully push their minons into your tower making it hard to last hit them.
+  </p>
+    <br><br>
+  <h2>Important Info</h2>
+  <p>
+     When Freezing, One must try to only last hit the minion. This allows the minions to do most of the work and keeps the player from lossing CS due to missing the last shot.
+  </p>
+
+  <h1>
+    Team Fighting
+  </h1>
+  <p>
+    Team Fighting happens after the first 20 minutes and consists of both teams merging lanes and fighting over objectives or End Game. These Objectives can consist of: Towers, Dragons, Kills, Rift Hearald, Baron, and Inhibitors.
+  </p>
+  <p>
+    While fighting for objectives the team may need to split and answer the call to other lanes or enemies. This means that if an enemies branches of and heads to top lane to push it, a friendly teammate must either answer the call or give up an objective to an enemy. As the game goes on, player fight for control until one team destroys the others nexus.
+  </p>
+</div>
+</body>
+</html>
